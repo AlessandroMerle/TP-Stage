@@ -1,0 +1,114 @@
+:root {
+    --green: #00FF00;
+    --white: #ffffff;
+    --black: #000000;
+}
+* {
+    color: var(--fontColor);
+    font-family: helvetica;
+  }
+  
+body {
+      background: var(--bg);
+}
+
+
+ul {
+    font-family: helvetica;
+}
+
+li {
+    list-style: circle
+}
+
+.list {
+    list-style: square;
+}
+
+.light-theme {
+    --bg: var(--white);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+  }
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--white);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
+
+.h2 {
+
+    list-style: square;
+}
+
+button {
+    cursor: pointer;
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+  }
+
+.btn:focus { outline-style: none; }
+
+
+.wrapper {
+    text-align: center;
+    padding-top: 10%;
+
+}
+
+.btn-1 {
+    background: #262626;
+    padding: 15px 15px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+
+.btn-2 {
+    background: #fedd2a;
+    padding: 15px 15px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+
+
+footer {
+    position: absolute;
+    background-color: #CAC8C8;
+    padding: 48px 0px 36px;
+    width: 100%;
+    top: 800px;
+    bottom: 0;
+}
+
+.copy-container {
+    bottom: 50px;
+}
+
+.une {
+    object-fit: contain;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+.deux  {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+  

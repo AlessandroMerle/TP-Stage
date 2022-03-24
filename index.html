@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple website</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body class="light-theme">
+    <header>
+    <h1>Page web pour allumer une lumière</h1>
+        <p id="msg">Tâches réalisables par cette page:</p>
+        <ul>
+            <li class="list">Allumer/Eteindre la lumière</li>
+            <li class="list">Ajouter un thème clair ou sombre en fonction du choix de l'utilisateur</li>
+        </ul>
+
+        <h2>Comment fonctionne cette page :</h2>
+        <ul class="h2">
+            <li>Cliquer sur le bouton à gauche du titre de la page pour changer le thème principal de la page</li>
+            <li>Cliquer sur le bouton "Allumer" pour allumer la lumière</li>
+            <li>Cliquer sur le bouton "Eteindre" pour éteindre la lumière</li>
+        </ul>
+        
+
+
+    </header>
+
+    
+        <div class="wrapper">
+            <button class="btn-1" onclick="eteindre();">Eteindre</button>
+
+            <img id="box" src="lampe_éteinte.png">
+
+            <button class="btn-2" onclick="allumer();">Allumer</button>
+
+        </div>
+    </main>
+
+
+    <script src="app.js"></script>
+
+    <noscript>You need to enable JavaScript to view the full site</noscript>
+
+
+
+
+</body>
+
+</html>
